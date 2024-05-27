@@ -1,0 +1,49 @@
+@media (max-width: 774px) {
+  a {
+    font-size: 15px;
+  }
+  .navbar-search {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .auther-info-card {
+    background-color: #ffc0cb50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px 90px;
+    text-align: center;
+  }
+  .auther-info-content h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .auther-info-content {
+    flex: 2;
+    padding: 20px 10px;
+  }
+  .auther-info-content h2 {
+    font-size: 1em;
+  }
+
+  .auther-info-content p {
+    font-size: 0.8em;
+  }
+
+  .social-media i {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .footer-content {
+    font-size: 20px;
+  }
+}
