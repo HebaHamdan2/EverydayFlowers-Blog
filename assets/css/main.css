@@ -124,7 +124,10 @@ figcaption {
   flex: 2;
   padding: 20px 40px;
 }
-
+blockquote{
+  font-style: italic;
+  color: #666;
+}
 .social-media {
   padding: 80px 0px;
   text-align: center;
